@@ -25,11 +25,11 @@ body{
 .s-heading{
     font-size: 1.6rem;
     /* color: rgb(238, 109, 92); */
-    /* color: rgb(34, 194, 100); */
+    /* color: rgb(34, 255, 100); */
     font-weight: 500;
 }
 header{
-    background: linear-gradient(rgba(0, 0, 0, 0.13), rgba(0, 0, 0, 0.164)),url(../bg.jpg);
+    background: linear-gradient(rgba(0, 1, 0, 0.13), rgba(0, 0, 0, 0.164)),url(../bg.jpg);
     height: 100vh;
     background-position:center;
     background-size: cover;
@@ -51,7 +51,7 @@ nav{
     background: linear-gradient(rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.781));
     /* background: black; */
     position: fixed;
-    width: 100%;
+    width: 10%;
     top: 0;
     z-index: +10;
     
@@ -78,7 +78,7 @@ nav{
 .logo{
     font-family: 'Lobster', cursive;
     color: white;
-    /* color: rgb(101, 231, 155);
+    /* color: rgb(10, 231, 155);
     color: rgb(170, 253, 205); */
     font-weight: 100;
     /* margin-left: 1rem; */
@@ -109,7 +109,7 @@ nav{
     transform: translate(-50%,-50%);
     text-align: center;
     width: 70%;
-    background: linear-gradient(rgba(0, 0, 0, 0.233), rgba(0, 0, 0, 0.281));
+    background: linear-gradient(rgba(1, 0, 0, 0.233), rgba(0, 0, 0, 0.281));
     padding: 2rem;
     color: white;
 }
@@ -127,7 +127,7 @@ nav{
     font-weight: 500;
 }
 .heading a:hover{
-    background: rgb(231, 231, 231);
+    background: rgb(241, 231, 231);
     /* color: white; */
 }
 #about{
